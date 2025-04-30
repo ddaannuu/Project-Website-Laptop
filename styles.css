@@ -5,30 +5,40 @@
 @import "@fontsource/inter/400-italic.css";
 
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 10px;
   padding: 10px;
-}
+} */
 
 body {
   font-family:  Inter;
   src: url(sansation_light.woff);;
-  color: #fff;
-  background-color: #FFFFFF;
+  /* color: #fff; */
+  background-color: #fff;
+  margin: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #282828;
+  padding: 15px 40px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.search {
+padding: 8px;
+width: 300px;
+border-radius: 8px;
+border: 1px solid #ccc;
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  color: black;
 }
 
 nav ul {
@@ -42,15 +52,19 @@ nav ul li {
 
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: black;
+  margin-left: 20px;
+  font-weight: 500;
 }
 
 input[type="text"] {
   padding: 5px;
+  
 }
 
 .hero {
   background-color: #333;
+  color: white;
   padding: 50px;
   text-align: center;
 }
@@ -58,6 +72,7 @@ input[type="text"] {
 .hero-text {
   max-width: 600px;
   margin: auto;
+  
 }
 
 .hero h1 {
@@ -83,12 +98,14 @@ input[type="text"] {
   gap: 20px;
   padding: 20px;
   background-color: #444;
+  color: white;
 }
 
 .product {
   background-color: #555;
   padding: 20px;
   border-radius: 8px;
+  color: white;
 }
 
 .product h2 {
@@ -102,4 +119,21 @@ input[type="text"] {
 
 .product .btn {
   background-color: #28a745;
+}
+.categories{
+  text-align: center;
+  padding: 40px;
+}
+.category-list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.category-list div {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #f8f8f8;
 }
