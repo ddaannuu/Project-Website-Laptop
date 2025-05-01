@@ -189,7 +189,7 @@ input[type="text"] {
 }
 
 .category-item:hover {
-  background-color: #eee;
+  transform: translateY(-5px);
 }
 .navbar {
   display: flex;
