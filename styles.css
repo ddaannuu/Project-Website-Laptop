@@ -184,6 +184,7 @@ input[type="text"] {
   color: #333;
   font-weight: bold;
   transition: background-color 0.3s;
+  box-shadow: 0 8px 7px rgba(0,0,0,0.1);
   width: 120px;
   height: 80px;
 }
@@ -207,7 +208,6 @@ input[type="text"] {
 
 .navbar .active {
   font-weight: bold;
-  border-bottom: 2px solid black;
 }
 
 .product-grid {
