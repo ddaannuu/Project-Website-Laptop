@@ -134,7 +134,7 @@ input[type="text"] {
 }
 .category-list div {
   padding: 10px 20px;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-radius: 20px;
   background: #f8f8f8;
 }
@@ -150,4 +150,44 @@ input[type="text"] {
 
 .navbare{
   font-size: 13px;
+}
+.categories{
+  text-align: center;
+  padding: 40px;
+  
+}
+.category-list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.category-list div {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #eee;
+  
+}
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category-item {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #eee;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  width: 120px;
+  height: 80px;
+}
+
+.category-item:hover {
+  background-color: #eee;
 }
