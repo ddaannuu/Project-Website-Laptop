@@ -11,6 +11,7 @@
   padding: 10px;
 } */
 
+
 body {
   font-family:  Inter;
   src: url(sansation_light.woff);;
@@ -136,4 +137,17 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 20px;
   background: #f8f8f8;
+}
+
+.search{
+  height: 10px;
+  width: 500px;
+}
+
+.logo{
+  margin-right: 70px;
+}
+
+.navbare{
+  font-size: 13px;
 }
