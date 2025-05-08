@@ -4,14 +4,6 @@
 @import "@fontsource/inter/400.css";
 @import "@fontsource/inter/400-italic.css";
 
-
-/* * {
-  box-sizing: border-box;
-  margin: 10px;
-  padding: 10px;
-} */
-
-
 body {
   font-family:  Inter;
   src: url(sansation_light.woff);;
@@ -32,12 +24,7 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
-.search {
-padding: 8px;
-width: 300px;
-border-radius: 8px;
-border: 1px solid #ccc;
-}
+
 
 .logo {
   font-size: 20px;
@@ -48,10 +35,13 @@ border: 1px solid #ccc;
 nav ul {
   list-style-type: none;
   display: flex;
+  padding-top: 15px;
+
 }
 
 nav ul li {
   margin: 0 15px;
+  font-size: 17px;
 }
 
 nav a {
@@ -61,9 +51,16 @@ nav a {
   font-weight: 500;
 }
 
-input[type="text"] {
-  padding: 5px;
-  
+ 
+
+.search {
+  height: 50px;
+  width: 500px;
+  border-radius: 1px;
+  border: 0px solid #ccc;
+  background-color: #F5F5F5;
+  font-size: 14px; 
+  color: rgba(0, 0, 0, 0.5); 
 }
 
 .hero {
@@ -142,10 +139,7 @@ input[type="text"] {
   background: #f8f8f8;
 }
 
-.search{
-  height: 10px;
-  width: 500px;
-}
+
 
 .logo{
   margin-right: 70px;
