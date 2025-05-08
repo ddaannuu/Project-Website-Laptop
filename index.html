@@ -5,14 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laptop Kita</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
   </head>
   <body>
     <header>
+      <button class="btn list" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-list"></i></button>
+
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Try scrolling the rest of the page to see this option in action.</p>
+        </div>
+      </div>
       <div class="logo">LaptopKita</div>
       <input type="text" class="search" placeholder="Search" />
       <div class="navbare">
         <nav>
-          <ul>  
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -33,10 +46,7 @@
     <section class="products">
       <div class="product">
         <h2>Lenovo LEGION</h2>
-        <p>
-          Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will
-          redefine your PlayStation experience.
-        </p>
+        <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
       </div>
       <div class="product">
         <h2>Asus</h2>
@@ -48,10 +58,7 @@
       </div>
       <div class="product">
         <h2>ZENBOOK</h2>
-        <p>
-          The new 15-inch MacBook Air makes room for more of what you love with
-          a spacious Liquid Retina display.
-        </p>
+        <p>The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
         <a href="#" class="btn">Shop Now</a>
       </div>
     </section>
@@ -82,28 +89,42 @@
       </div>
     </section>
 
-    <nav class="navbar">
-      <span class="active">New Arrival</span>
-      <span>Bestseller</span>
-      <span>Featured Products</span>
+    <!-- Navbar Product -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item" id="#NewArriv">
+              <a class="nav-link active" aria-current="page" href="#NewArriv">New Arrival</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bestseller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  
+
     <div class="product-grid">
       <!-- egion 5 15IRX9 -->
       <div class="product-card discount">
-      
-        <img src="Images\Legion 5 15IRX9.webp" alt="egion 5 15IRX9" style="height: 200px; width: 280px;">
+        <img src="Images\Legion 5 15IRX9.webp" alt="egion 5 15IRX9" style="height: 200px; width: 280px" />
         <h3>egion 5 15IRX9</h3>
         <p>ntel Core i7-13650HX | RTX 4060 8GB GDDR6 | 15.6" FHD 144Hz</p>
         <div class="price-rating">
           <span class="price"> Rp.19.949.000</span>
         </div>
       </div>
-  
+
       <!-- ASUS Zenbook -->
       <div class="product-card discount">
-       
-        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED" style="height: 200px; width: 280px;">
+        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED" style="height: 200px; width: 280px" />
         <h3>ASUS Zenbook 14 OLED</h3>
         <p>Intel Core i7 | 16GB RAM | 1TB SSD | OLED Display</p>
         <div class="price-rating">
@@ -111,21 +132,19 @@
         </div>
       </div>
 
-       <!-- ASUS ROG Scar G532LWS-I97SD6T-->
-       <div class="product-card discount">
-      
-        <img src="Images\ASUS ROG Scar G532LWS-I97SD6T.webp" alt="ASUS ROG Scar G532LWS-I97SD6T" style="height: 200px; width: 280px;">
+      <!-- ASUS ROG Scar G532LWS-I97SD6T-->
+      <div class="product-card discount">
+        <img src="Images\ASUS ROG Scar G532LWS-I97SD6T.webp" alt="ASUS ROG Scar G532LWS-I97SD6T" style="height: 200px; width: 280px" />
         <h3>ASUS ROG Scar G532LWS-I97SD6T</h3>
-        <p>Intel Core i9-10980HK |  RTX 2070 Super GDDR6 8GB | 15.6" FHD 300Hz | RAM 32GB DDR4</p>
+        <p>Intel Core i9-10980HK | RTX 2070 Super GDDR6 8GB | 15.6" FHD 300Hz | RAM 32GB DDR4</p>
         <div class="price-rating">
           <span class="price"> Rp. 48.200.000</span>
         </div>
       </div>
-  
+
       <!-- Laptop ThinkPad E14 Gen 6 -->
       <div class="product-card discount">
-       
-        <img src="Images\Laptop ThinkPad E14 Gen 6.webp" alt="ThinkPad E14 Gen 6" style="height: 200px; width: 280px;">
+        <img src="Images\Laptop ThinkPad E14 Gen 6.webp" alt="ThinkPad E14 Gen 6" style="height: 200px; width: 280px" />
         <h3>ThinkPad E14 Gen 6</h3>
         <p>Intel Core i7 | 32GB RAM | 1TB SSD | 14" IPS, resolusi FHD+ (1920 x 1200)</p>
         <div class="price-rating">
@@ -133,21 +152,19 @@
         </div>
       </div>
 
-       <!-- Lenovo Legion -->
-       <div class="product-card discount">
-      
-        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7">
+      <!-- Lenovo Legion -->
+      <div class="product-card discount">
+        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7" />
         <h3>Lenovo Legion 5 Gen 7</h3>
         <p>Ryzen 7 6800H | RTX 3070 Ti | 15.6" FHD 165Hz</p>
         <div class="price-rating">
           <span class="price"> Rp. 1000</span>
         </div>
       </div>
-  
+
       <!-- ASUS Zenbook -->
       <div class="product-card discount">
-       
-        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED">
+        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED" />
         <h3>ASUS Zenbook 14 OLED</h3>
         <p>Intel Core i7 | 16GB RAM | 1TB SSD | OLED Display</p>
         <div class="price-rating">
@@ -155,21 +172,19 @@
         </div>
       </div>
 
-       <!-- Lenovo Legion -->
-       <div class="product-card discount">
-      
-        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7">
+      <!-- Lenovo Legion -->
+      <div class="product-card discount">
+        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7" />
         <h3>Lenovo Legion 5 Gen 7</h3>
         <p>Ryzen 7 6800H | RTX 3070 Ti | 15.6" FHD 165Hz</p>
         <div class="price-rating">
           <span class="price"> Rp. 1000</span>
         </div>
       </div>
-  
+
       <!-- ASUS Zenbook -->
       <div class="product-card discount">
-       
-        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED">
+        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED" />
         <h3>ASUS Zenbook 14 OLED</h3>
         <p>Intel Core i7 | 16GB RAM | 1TB SSD | OLED Display</p>
         <div class="price-rating">
@@ -177,21 +192,19 @@
         </div>
       </div>
 
-       <!-- Lenovo Legion -->
-       <div class="product-card discount">
-      
-        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7">
+      <!-- Lenovo Legion -->
+      <div class="product-card discount">
+        <img src="Images\lenovo legion.webp" alt="Lenovo Legion 5 Gen 7" />
         <h3>Lenovo Legion 5 Gen 7</h3>
         <p>Ryzen 7 6800H | RTX 3070 Ti | 15.6" FHD 165Hz</p>
         <div class="price-rating">
           <span class="price"> Rp. 1000</span>
         </div>
       </div>
-  
+
       <!-- ASUS Zenbook -->
       <div class="product-card discount">
-       
-        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED">
+        <img src="Images\Asus Zenbook 14.jpg" alt="ASUS Zenbook 14 OLED" />
         <h3>ASUS Zenbook 14 OLED</h3>
         <p>Intel Core i7 | 16GB RAM | 1TB SSD | OLED Display</p>
         <div class="price-rating">
@@ -199,7 +212,6 @@
         </div>
       </div>
     </div>
-
 
     <!-- Footer -->
     <section class="hero">
@@ -209,7 +221,7 @@
         <button>Shop Now</button>
       </div>
     </section>
-  
+
     <footer>
       <div class="footer-container">
         <div class="footer-section">
@@ -236,6 +248,6 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -20,6 +20,9 @@ body {
   margin: 0;
 }
 
+.list{
+  background-color: transparent;
+}
 header {
   display: flex;
   justify-content: space-between;
