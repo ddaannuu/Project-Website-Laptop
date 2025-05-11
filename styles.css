@@ -24,6 +24,15 @@ header {
   border-bottom: 1px solid #ddd;
 }
 
+.c-item {
+  height: 480px;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
+
 
 
 .logo {
