@@ -51,12 +51,18 @@ nav ul {
   list-style-type: none;
   display: flex;
   padding-top: 15px;
-
 }
 
 nav ul li {
   margin: 0 15px;
   font-size: 17px;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 174, 255);
+  background-color: transparent; 
+  border-radius: 5px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 nav a {
@@ -65,8 +71,6 @@ nav a {
   margin-left: 20px;
   font-weight: 500;
 }
-
- 
 
 .search {
   height: 50px;
