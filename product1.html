@@ -79,69 +79,99 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item nav-underline" id="#NewArriv">
-                <a class="nav-link active" aria-current="page" href="#NewArriv">Description</a>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" data-tab="description-tab">Description</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Additional information</a>
+                <a class="nav-link" href="#" data-tab="additional-tab">Additional information</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">QR Code</a>
+                <a class="nav-link" href="#" data-tab="qr-tab">QR Code</a>
               </li>
             </ul>
+            
           </div>
         </div>
       </nav>
+      
+      <div class="tab-content-container">
+        <div class="tab-content active" id="description-tab">
+          <section class="product-description">
+            <!-- Konten Deskripsi (sudah ada, pindahkan ke sini) -->
+            <p><strong>Specification:</strong></p>
+            <ul>
+              <li><strong>Processor:</strong> Intel Core i7-13650HX...</li>
+              <ul>
+                <li><strong>Processor:</strong> Intel Core i7-13650HX, 14C (6P + 8E) / 20T, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB</li>
+                <li><strong>Graphics:</strong> NVIDIA GeForce RTX 4060 8GB GDDR6, Boost Clock 2370MHz, TGP 140W, 233 AI TOPS</li>
+                <li><strong>Chipset Intel:</strong> HM770 Chipset</li>
+                <li><strong>Memory:</strong> 2 x 12GB SO-DIMM DDR5-4800</li>
+                <li><strong>Storage:</strong> 512GB SSD M.2 2242 PCIe 4.0×4 NVMe</li>
+                <li><strong>Display:</strong> 15.6″ FHD (1920×1080) IPS 300nits Anti-glare, 100% sRGB, 144Hz, G-SYNC</li>
+              </ul>
+              
+              <ul>
+                <li><strong>Operating System:</strong> Windows 11 Home Single Language, English</li>
+                <li><strong>Bundled Software:</strong> Office Home & Student 2024 + Microsoft® 365 Basic</li>
+              </ul>
+              
+              <ul>
+                <li><strong>Audio:</strong> Chip High Definition (HD) Audio, Realtek ALC3287 codec</li>
+                <li><strong>Speakers:</strong> Stereo speakers, 2W x2, optimized with Nahimic Audio</li>
+                <li><strong>Camera:</strong> HD 720p with E-shutter</li>
+                <li><strong>Microphone:</strong> 2x, Array</li>
+                <li><strong>Battery:</strong> Integrated 60Wh</li>
+                <li><strong>Power Adapter:</strong> 230W Slim Tip (3-pin)</li>
+              </ul>
+      
+              <ul>
+                <li><strong>Keyboard:</strong> White Backlit, English</li>
+                <li><strong>Touchpad:</strong> Buttonless Mylar surface multi-touch touchpad, 75 x 120 mm (2.95 x 4.72 inches)</li>
+                <li><strong>Case Color:</strong> Storm Grey</li>
+                <li><strong>Surface Treatment:</strong> Anodizing</li>
+                <li><strong>Case Material:</strong> Aluminium (Top), PC-ABS (Bottom)</li>
+              </ul>
+              
+              <ul>
+                <li><strong>Ethernet:</strong> 100/1000M (RJ-45)</li>
+                <li><strong>WLAN + Bluetooth:</strong> Wi-Fi 6, 802.11ax 2×2 + BT5.2</li>
+              </ul>
+              
+              <ul>
+                <li><strong>Standard Ports:</strong></li>
+                <li>2x USB-A (USB 5Gbps / USB 3.2 Gen 1)</li>
+                <li>1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On</li>
+                <li>1x USB-C (USB 10Gbps / USB 3.2 Gen 2), with Lenovo PD 140W and DisplayPort 1.4</li>
+                <li>1x USB-C (USB 10Gbps / USB 3.2 Gen 2), with DisplayPort 1.4</li>
+                <li>1x HDMI 2.1, up to 8K/60Hz</li>
+                <li>1x Headphone / microphone combo jack (3.5mm)</li>
+                <li>1x Ethernet (RJ-45)</li>
+                <li>1x Power connector</li>
+              </ul>
+              
+            </ul>
+          </section>
+        </div>
+      
+        <div class="tab-content" id="additional-tab">
+          <section>
+            <h3>Additional Information</h3>
+            <p>Garansi 2 tahun, Tersedia di semua cabang, Dukungan purna jual tersedia, dll.</p>
+          </section>
+        </div>
+      
+        <div class="tab-content" id="qr-tab">
+          <section>
+            <h3>QR Code</h3>
+            <img src="Images/qrcode-sample.png" alt="QR Code" style="max-width: 200px;" />
+            <p>Scan untuk melihat produk ini di aplikasi kami.</p>
+          </section>
+        </div>
+      </div>
+      
 
       <section class="product-description">
         <p><strong>Specification:</strong></p>
-        <ul>
-          <li><strong>Processor:</strong> Intel Core i7-13650HX, 14C (6P + 8E) / 20T, P-core 2.6 / 4.9GHz, E-core 1.9 / 3.6GHz, 24MB</li>
-          <li><strong>Graphics:</strong> NVIDIA GeForce RTX 4060 8GB GDDR6, Boost Clock 2370MHz, TGP 140W, 233 AI TOPS</li>
-          <li><strong>Chipset Intel:</strong> HM770 Chipset</li>
-          <li><strong>Memory:</strong> 2 x 12GB SO-DIMM DDR5-4800</li>
-          <li><strong>Storage:</strong> 512GB SSD M.2 2242 PCIe 4.0×4 NVMe</li>
-          <li><strong>Display:</strong> 15.6″ FHD (1920×1080) IPS 300nits Anti-glare, 100% sRGB, 144Hz, G-SYNC</li>
-        </ul>
-        
-        <ul>
-          <li><strong>Operating System:</strong> Windows 11 Home Single Language, English</li>
-          <li><strong>Bundled Software:</strong> Office Home & Student 2024 + Microsoft® 365 Basic</li>
-        </ul>
-        
-        <ul>
-          <li><strong>Audio:</strong> Chip High Definition (HD) Audio, Realtek ALC3287 codec</li>
-          <li><strong>Speakers:</strong> Stereo speakers, 2W x2, optimized with Nahimic Audio</li>
-          <li><strong>Camera:</strong> HD 720p with E-shutter</li>
-          <li><strong>Microphone:</strong> 2x, Array</li>
-          <li><strong>Battery:</strong> Integrated 60Wh</li>
-          <li><strong>Power Adapter:</strong> 230W Slim Tip (3-pin)</li>
-        </ul>
-
-        <ul>
-          <li><strong>Keyboard:</strong> White Backlit, English</li>
-          <li><strong>Touchpad:</strong> Buttonless Mylar surface multi-touch touchpad, 75 x 120 mm (2.95 x 4.72 inches)</li>
-          <li><strong>Case Color:</strong> Storm Grey</li>
-          <li><strong>Surface Treatment:</strong> Anodizing</li>
-          <li><strong>Case Material:</strong> Aluminium (Top), PC-ABS (Bottom)</li>
-        </ul>
-        
-        <ul>
-          <li><strong>Ethernet:</strong> 100/1000M (RJ-45)</li>
-          <li><strong>WLAN + Bluetooth:</strong> Wi-Fi 6, 802.11ax 2×2 + BT5.2</li>
-        </ul>
-        
-        <ul>
-          <li><strong>Standard Ports:</strong></li>
-          <li>2x USB-A (USB 5Gbps / USB 3.2 Gen 1)</li>
-          <li>1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On</li>
-          <li>1x USB-C (USB 10Gbps / USB 3.2 Gen 2), with Lenovo PD 140W and DisplayPort 1.4</li>
-          <li>1x USB-C (USB 10Gbps / USB 3.2 Gen 2), with DisplayPort 1.4</li>
-          <li>1x HDMI 2.1, up to 8K/60Hz</li>
-          <li>1x Headphone / microphone combo jack (3.5mm)</li>
-          <li>1x Ethernet (RJ-45)</li>
-          <li>1x Power connector</li>
-        </ul>
         
       </section>
 
@@ -176,6 +206,7 @@
         </div>
       </section>
     </main>
+    <script src="deskripsi.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
   </body>
 </html>

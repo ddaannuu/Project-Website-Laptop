@@ -234,3 +234,15 @@ nav a {
   color: #e53935;
   font-weight: bold;
 }
+
+.tab-content-container {
+  margin-top: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
