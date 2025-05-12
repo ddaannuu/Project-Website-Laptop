@@ -201,7 +201,7 @@ nav a {
 
 .category-item span {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
   word-break: break-word;
   text-align: center;
 }
