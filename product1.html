@@ -39,12 +39,29 @@
     <main class="container">
       <section class="product-detail">
         <div class="images">
-          <img src="Images\Legion 5 15IRX9.webp" alt="Main Converter Image" class="main-img" />
-          <!-- <div class="thumbnails">
-          <img src="thumb1.jpg" alt="thumb">
-          <img src="thumb2.jpg" alt="thumb">
-          <img src="thumb3.jpg" alt="thumb">
-        </div> -->
+          <div class="images product-carousel-wrapper" style="max-width: 400px; margin: auto;">
+          <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="Images/Legion 5 15IRX9.webp" class="d-block w-100" alt="Main Image">
+                </div>
+            <div class="carousel-item">
+                  <img src="Images/lenovo legion.webp" class="d-block w-100" alt="Side View">
+            </div>
+            <div class="carousel-item">
+              <img src="Images/Lenovo-Legion-5-15IRX9-2.png" class="d-block w-100" alt="Back View">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+       </div>
+    </div>
         </div>
 
         <div class="product-info">
