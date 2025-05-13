@@ -322,6 +322,18 @@ nav a {
   color: black;
 }
 
+.tab-content-container {
+  margin-top: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
 footer {
   background-color: #000;
   padding: 60px 20px;
