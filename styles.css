@@ -79,6 +79,7 @@ nav a {
   color: rgba(0, 0, 0, 0.5);
 }
 
+
 .hero {
   background-color: #333;
   color: white;
@@ -377,6 +378,31 @@ footer {
   top: 0;
   left: 0;
   transition: transform 0.5s ease-in-out;
+}
+
+.product-card {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+.product-card.dark {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.btn-outline-dark,
+.btn-outline-light {
+  border-radius: 0;
 }
 
 .second-img {

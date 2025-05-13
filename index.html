@@ -24,7 +24,8 @@
         </div>
       </div>
       <div class="logo">LaptopKita</div>
-      <input type="text" class="search" placeholder="Search" />
+      <i class="bi bi-search"></i>
+      <input type="text" class="search" placeholder="Search"/>
       <div class="navbare">
         <nav>
           <ul>
@@ -64,7 +65,20 @@
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="3"
+        aria-label="Slide 4"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="4"
+        aria-label="Slide 5"
+      ></button>
       </div>
+
       <div class="carousel-inner">
         <div class="carousel-item active c-item" data-bs-interval="10000">
           <div
@@ -73,9 +87,9 @@
             data-bs-ride="carousel"
           >
             <video width="100%" height="auto" autoplay muted loop playsinline>
-              <source src="Images/Lenovo Legion.mp4" type="video/mp4" />
+              <source src="Images\Lenovo LEGION 2.mp4" type="video/mp4" />
               <source
-                src="Images/Lenovo Legion.mp4"
+                src="Images\Lenovo LEGION 2.mp4"
                 type="video/ogg"
                 class="d-block w-100 c-img"
                 alt="..."
@@ -94,6 +108,40 @@
               <source src="Images\Acer.mp4" type="video/mp4" />
               <source
                 src="Images\Acer.mp4"
+                type="video/ogg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+            </video>
+          </div>
+        </div>
+        <div class="carousel-item active c-item" data-bs-interval="10000">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <video width="100%" height="auto" autoplay muted loop playsinline>
+              <source src="Images\Macbook.mp4" type="video/mp4" />
+              <source
+                src="Images\Macbook.mp4"
+                type="video/ogg"
+                class="d-block w-100 c-img"
+                alt="..."
+              />
+            </video>
+          </div>
+        </div>
+        <div class="carousel-item active c-item" data-bs-interval="10000">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+          >
+            <video width="100%" height="auto" autoplay muted loop playsinline>
+              <source src="Images\MSI.mp4" type="video/mp4" />
+              <source
+                src="Images\MSI.mp4"
                 type="video/ogg"
                 class="d-block w-100 c-img"
                 alt="..."
@@ -129,26 +177,25 @@
       </button>    
     </div>
  
-
-    <section class ="products" id="products">
-      <div class="product">
-        <h2>Lenovo LEGION</h2>
-        <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
-      </div>
-      <div class="product">
-        <h2>Asus</h2>
-        <p>Computational audio. Listen, it’s powerful.</p>
-      </div>
-      <div class="product">
-        <h2>MSI</h2>
-        <p>The easiest way to experience entertainment.</p>
-      </div>
-      <div class="product">
-        <h2>ZENBOOK</h2>
-        <p>The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
-        <a href="#" class="btn">Shop Now</a>
-      </div>
-    </section>
+<section class ="products" id="products">
+  <div class="product">
+    <h2>Lenovo LEGION</h2>
+    <p>Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.</p>
+  </div>
+  <div class="product">
+    <h2>Asus</h2>
+    <p>Computational audio. Listen, it’s powerful.</p>
+  </div>
+  <div class="product">
+    <h2>MSI</h2>
+    <p>The easiest way to experience entertainment.</p>
+  </div>
+  <div class="product">
+    <h2>ZENBOOK</h2>
+    <p>The new 15-inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.</p>
+    <a href="#" class="btn">Shop Now</a>
+  </div>
+</section>
 
     <section class="categories" id="categories">
       <h2>Browse By Category</h2>
@@ -184,16 +231,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item nav-underline" id="#NewArriv">
-              <a class="nav-link active " aria-current="page" href="#NewArriv">New Arrival</a>
+            <li class="nav-item nav-underline">
+              <a class="nav-link active" href="#" data-tab="New Arrival">New Arrival</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Best Seller</a>
+            <li class="nav-item nav-underline">
+              <a class="nav-link" href="#" data-tab="Best Seller-tab">Best Seller</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">On Sale</a>
+            <li class="nav-item nav-underline">
+              <a class="nav-link" href="#" data-tab="Featured Products">Featured Products</a>
             </li>
           </ul>
+          
         </div>
       </div>
     </nav>
@@ -205,7 +253,7 @@
         <a href="product1.html" style="text-decoration: none; color: inherit;">
           <div class="image-slide-wrapper">
             <img src="Images\Legion 5 15IRX9.webp" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
-            <img src="Images\Lenovo-Legion-5-15IRX9-2.png" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\Lenovo-Legion-5-15IRX9-2.png" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px" />
           </div>
             <h3>Legion 5 15IRX9</h3>
             <p>Intel Core i7-13650HX | RTX 4060 8GB GDDR6 | 15.6" FHD 144Hz</p>
@@ -219,7 +267,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\Asus Zenbook 14.jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
-            <img src="Images\zenbook 14 2.webp" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\zenbook 14 2.webp" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>ASUS Zenbook 14 OLED</h3>
         <p>Intel Core i7 | 16GB RAM | 1TB SSD | OLED Display</p>
@@ -232,7 +280,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\ASUS ROG Scar G532LWS-I97SD6T 1.webp" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
-            <img src="Images\ROG scar2.jpg" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\ROG scar2.jpg" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>ASUS ROG Scar G532LWS-I97SD6T</h3>
         <p>Intel Core i9-10980HK | RTX 2070 Super GDDR6 8GB | 15.6" FHD 300Hz | RAM 32GB DDR4</p>
@@ -245,7 +293,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\Laptop ThinkPad E14 Gen 6.webp" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
-            <img src="Images\Thinkpad E14 2.webp" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\Thinkpad E14 2.webp" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px" />
         </div>
         <h3>ThinkPad E14 Gen 6</h3>
         <p>Intel Core i7 | 32GB RAM | 1TB SSD | 14" IPS, resolusi FHD+ (1920 x 1200)</p>
@@ -258,7 +306,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\acer nitroo v15.jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
-            <img src="Images\acer niro v15 2.jpg" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\acer niro v15 2.jpg" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>Acer Nitro V15</h3>
         <p>Intel Core I9 13900H |RTX 4060-8GB GDDR6 | 15.6″ FHD (1920 x 1080) IPS-Level, 144Hz</p>
@@ -271,7 +319,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\ASUS Vivobook Go 14 E1404FA.jpeg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
-            <img src="Images/ASUS Vivobook Go 14 E1404FA 2.jpg" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images/ASUS Vivobook Go 14 E1404FA 2.jpg" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>ASUS Vivobook Go 14 E1404FA</h3>
         <p>AMD Ryzen 5 7520U | 16GB RAM | 512GB SSD
@@ -285,7 +333,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images/axio pongoo 725.jpeg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
-            <img src="Images\Axio Pongo 725 2.webp" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\Axio Pongo 725 2.webp" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>Axio Pongo 725</h3>
         <p>Intel Core i7-12650H | RTX 2050-4gb | 15.6" FHD (1920x1080) 144hz</p>
@@ -298,7 +346,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\MacBook Air 15 M2.jpeg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
-            <img src="Images\MacBook Air 15 M2 2.jpg" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\MacBook Air 15 M2 2.jpg" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>MacBook Air 15 M2</h3>
         <p>Apple M2 Chip (CPU 8-Core, GPU 10-Core) |  8 GB RAM | 512 GB SSD | 15.3 inci</p>
@@ -310,8 +358,8 @@
       <!-- LENOVO LOQ 15IRX9 i7 -->
       <div class="product-card discount">
         <div class="image-slide-wrapper">
-            <img src="Images\LENOVO LOQ 15IRX9 i7 1.jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 250px"/>
-            <img src="Images\LENOVO LOQ 15IRX9 i7.webp" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\LENOVO LOQ 15IRX9 i7 1.jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px"/>
+            <img src="Images\LENOVO LOQ 15IRX9 i7.webp" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px"/>
         </div>
         <h3>LENOVO LOQ 15IRX9 i7</h3>
         <p>Intel Core i7-13650HX |RTX 4060 8GB | 15.6" FHD 144Hz</p>
@@ -324,7 +372,7 @@
       <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="Images\ASUS TUF Gaming F16 1.jpg" alt="Legion 5 default" class="product-img first-img"style="height: 200px; width: 280px"/>
-            <img src="Images\ASUS TUF Gaming F16 2.jpg" alt="Legion 5 hover" class="product-img second-img" />
+            <img src="Images\ASUS TUF Gaming F16 2.jpg" alt="Legion 5 hover" class="product-img second-img" style="height: 200px; width: 280px" />
         </div>
         <h3>ASUS TUF Gaming F16</h3>
         <p>13th Gen Intel Core i7-13650HX |RTX 4050  |  16GB RAM |16-inch, FHD+ 165Hz </p>
@@ -334,6 +382,50 @@
       </div>
     </div>
 
+    <div class="container py-5">
+      <h2>Rincian Products</h2>
+      <div class="row g-4">
+    
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="Images\Popular Product.png" alt="Popular Product">
+            <h5 class="fw-bold">Popular Products</h5>
+            <p>Pilihan Terbaik yang Banyak Diminati. Kami kurasikan daftar produk populer ini berdasarkan kualitas, ulasan positif, dan tingkat penjualan tertinggi. Temukan produk-produk unggulan yang telah terbukti menjadi favorit banyak orang.</p>
+            <a href="#" class="btn btn-outline-dark">Rincian</a>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="Images\Acer Pro.png" alt="Acer Pro">
+            <h5 class="fw-bold">Acer PRO</h5>
+            <p>Andalan Produktivitas Bisnis Anda. Percayakan kebutuhan komputasi bisnis Anda pada laptop Acer Pro yang andal dan efisien. Didesain untuk kinerja optimal, Acer Pro siap mendukung setiap langkah kesuksesan Anda.</p>
+            <a href="#" class="btn btn-outline-dark">Rincian</a>
+          </div>
+        </div>
+    
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="Images\Mackbook Pro.png" alt="Mackbook Pro">
+            <h5 class="fw-bold">Mackbook Pro</h5>
+            <p>Performa Pro, Tanpa Kompromi. Rasakan kekuatan dan keindahan dalam satu perangkat. MacBook Pro adalah alat esensial bagi para profesional yang membutuhkan kinerja andal dan desain yang ikonik untuk menghasilkan karya terbaik.</p>
+            <a href="#" class="btn btn-outline-dark">Rincian</a>
+          </div>
+        </div>
+    
+        <div class="col-md-3">
+          <div class="product-card text-center">
+            <img src="Images\Lenovo LEGION.png" alt="Lenovo LEGION">
+            <h5 class="fw-bold">Lenovo LEGION</h5>
+            <p>Kekuatan Gaming di Tangan Anda. Rasakan performa gahar dan visual imersif yang akan membawa pengalaman gaming Anda ke level selanjutnya. Legion adalah andalan para gamer sejati yang tidak berkompromi.</p>
+            <a href="#" class="btn btn-outline-dark">Rincian</a>
+          </div>
+        </div>
+        </div>
+    
+      </div>
+    </div>
+    
     <!-- Footer -->
     <section class="hero">
       <div class="hero-content">
@@ -347,10 +439,11 @@
       <div class="footer-container" id="contact">
         <div class="footer-section">
           <h2>Sosial Media</h2>
-             <a href="https://github.com/" target="_blank" style="text-decoration: none; color: white;">
+             <a href="https://github.com/ddaannuu/Project-Website-Laptop.git" target="_blank" style="text-decoration: none; color: white;">
               <i class="bi bi-github" style="font-size: 24px;"></i> GitHub
             </a>
-          <p>Username github masing masing</p>
+          <p>Isikan username GitHub</p>
+
         </div>
         <div class="footer-section">
           <h3>Services</h3>
