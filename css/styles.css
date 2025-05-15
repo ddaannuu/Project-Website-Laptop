@@ -349,7 +349,12 @@ nav a {
   font-weight: bold;
   color: #e53935;
 }
-
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+  margin-left: 10px;
+}
 .rating {
   color: #333;
 }

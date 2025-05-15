@@ -143,6 +143,7 @@ nav a {
 
 .cart-buttons {
   margin-top: 20px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .cart-buttons button {
@@ -152,9 +153,12 @@ nav a {
   border-radius: 4px;
   cursor: pointer;
 }
+.cart-buttons:hover {
+  transform: translateY(-5px);
+}
 
 .add-cart {
-  background-color: #ffa500;
+  background-color: rgb(0, 162, 255);
   color: white;
 }
 
@@ -165,7 +169,7 @@ nav a {
 
 .meta {
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 17px;
   color: #555;
 }
 
