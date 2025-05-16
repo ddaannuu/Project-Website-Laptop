@@ -582,14 +582,6 @@ footer {
   color: white;
 }
 
-.footer-section p,
-.footer-section li {
-  color: #aaa;
-  font-size: 14px;
-  margin-bottom: 8px;
-  list-style: none;
-}
-
 .socials i:hover {
   color: #fff;
 }
@@ -665,3 +657,77 @@ footer {
   align-items: center;     /* vertical center */
   height: 20vh;  
 }
+
+/* Profil */
+
+.border{
+  box-sizing: border-box;
+}
+
+.footer-section p,
+.footer-section li {
+  color: #aaa;
+  font-size: 14px;
+  margin-bottom: 8px;
+  list-style: none;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.profile-name {
+  color:#000;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+.profile-desc {
+  font-size: 14px;
+  color: #090909;
+}
+
+/* Responsif Layout */
+@media (max-width: 992px) {
+  .profile-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-card {
+    width: 100%;
+  }
+}                              
+
+     /* Akhir profil */
