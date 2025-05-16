@@ -31,6 +31,18 @@ header.scrolled {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 .offcanvas {
   height: 100vh; /* Mengisi seluruh tinggi viewport */
   overflow-y: auto; /* Memungkinkan scroll vertikal jika konten melebihi tinggi */
