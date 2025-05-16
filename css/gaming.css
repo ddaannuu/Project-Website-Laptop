@@ -14,6 +14,7 @@ body {
 .list {
   background-color: transparent;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,6 +38,11 @@ header.scrolled {
   background-color: rgba(255, 255, 255, 0.7); /* semi transparan */
   backdrop-filter: blur(10px); /* efek blur */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas {
+  height: 100vh; /* Mengisi seluruh tinggi viewport */
+  overflow-y: auto; /* Memungkinkan scroll vertikal jika konten melebihi tinggi */
 }
 
 .search-container {
@@ -68,6 +74,86 @@ header.scrolled {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+  transition: left 0.3s ease;
+  z-index: 10;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-tabs {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu-tab.active {
+  color: rgb(0, 174, 255);
+  border-bottom: 3px solid rgb(0, 174, 255);
+}
+
+.menu-list {
+  margin-top: 20px;
+}
+
+.menu-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.menu-item.highlight {
+  color: rgb(0, 174, 255);
+  font-weight: bold;
+}
+
+.submenu {
+  padding-left: 15px;
+  display: none;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Burger menu button */
+.burger {
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 11;
+  background: white;
+  border-radius: 5px;
+}
+
 
 nav ul {
   list-style-type: none;

@@ -11,17 +11,48 @@
   </head>
   <body>
     <header>
-      <button class="btn list" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="bi bi-list fs-4"></i></button>
+      <button class="btn list" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" 
+      aria-controls="offcanvasWithBothOptions"><i class="bi bi-list fs-4"></i></button>
 
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Laptop Kita</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
-          <p>Try scrolling the rest of the page to see this option in action.</p>
+          <div class="menu-tabs">
+            <div class="menu-tab active" onclick="setTab('menu')">Menu</div>
+            <div class="menu-tab" onclick="setTab('categories')">Categories</div>
+          </div>
+        <!-- Menu Burger -->
+          <div class="menu-list" id="menuTab">
+            <div class="menu-item">Home</div>
+            <div class="menu-item">About Us</div>
+            <div class="menu-item" onclick="toggleSubmenu('laptopkita')">Laptop Kita Store <span>+</span></div>
+            <div class="submenu" id="submenu-laptopkita">
+              <div>- Lenovo</div>
+              <div>- MacBook</div>
+              <div>- DELL</div>
+              <div>- MSI</div>
+              <div>- HP</div>
+            </div>
+            <div class="menu-item highlight">Our Marketplace</div>
+            <div class="menu-item">Update</div>
+            <div class="menu-item">Pricelist</div>
+            <div class="menu-item">All Promo</div>
+            <div class="menu-item" onclick="toggleSubmenu('info')">More Info <span>+</span></div>
+            <div class="submenu" id="submenu-info">
+              <div>- FAQ</div>
+              <div>- Contact</div>
+            </div>
+          </div>
+        
+          <div class="menu-list" id="categoriesTab" style="display: none;">
+            <div class="menu-item">Laptop</div>
+            <div class="menu-item">Accessories</div>
+            <div class="menu-item">Networking</div>
+          </div>
         </div>
-      </div>
+
       <div class="logo">LaptopKita</div>
       <div class="search-container">
         <i class="bi bi-search"></i>
