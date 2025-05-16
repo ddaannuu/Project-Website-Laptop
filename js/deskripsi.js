@@ -14,6 +14,37 @@
     });
   });
 
+  // Burger Menu
+  function toggleMenu() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('overlay');
+    sidebar.classList.toggle('open');
+    overlay.style.display = sidebar.classList.contains('open') ? 'block' : 'none';
+  }
+
+  function toggleSubmenu(id) {
+    const submenu = document.getElementById(`submenu-${id}`);
+    submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+  }
+
+  function setTab(tab) {
+    const menuTab = document.getElementById('menuTab');
+    const categoriesTab = document.getElementById('categoriesTab');
+    const tabs = document.querySelectorAll('.menu-tab');
+
+    tabs.forEach(t => t.classList.remove('active'));
+
+    if (tab === 'menu') {
+      menuTab.style.display = 'block';
+      categoriesTab.style.display = 'none';
+      tabs[0].classList.add('active');
+    } else {
+      menuTab.style.display = 'none';
+      categoriesTab.style.display = 'block';
+      tabs[1].classList.add('active');
+    }
+  }
+
   //nav product  
   const tabklik = document.querySelectorAll(".nav-link[data-tab]");
   const KlikContents = document.querySelectorAll(".tab-content");
