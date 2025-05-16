@@ -72,18 +72,20 @@
   });
   
   
-  const reveals = document.querySelectorAll('.reveal');
+  const revealElements = document.querySelectorAll('.reveal');
 
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
+        // Dapatkan index untuk delay
+        const index = Array.from(revealElements).indexOf(entry.target);
+        entry.target.style.transitionDelay = `${index * 150}ms`; // 0.15s per elemen
         entry.target.classList.add('active');
+        observer.unobserve(entry.target); // Optional: hanya animasi sekali
       }
     });
-  }, {
-    threshold: 0.1
-  });
+  }, { threshold: 0.1 });
 
-  reveals.forEach(el => {
+  revealElements.forEach((el) => {
     observer.observe(el);
   });
