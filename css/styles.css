@@ -203,6 +203,25 @@ video,
   filter: brightness(0.8);
 }
 
+/* Logo */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
 .logo {
   font-size: 20px;
   font-weight: bold;
