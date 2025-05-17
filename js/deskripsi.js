@@ -79,7 +79,7 @@
       if (entry.isIntersecting) {
         // Dapatkan index untuk delay
         const index = Array.from(revealElements).indexOf(entry.target);
-        entry.target.style.transitionDelay = `${index * 150}ms`; // 0.15s per elemen
+        entry.target.style.transitionDelay = `${index * 80}ms`; // 0.15s per elemen
         entry.target.classList.add('active');
         observer.unobserve(entry.target); // Optional: hanya animasi sekali
       }
