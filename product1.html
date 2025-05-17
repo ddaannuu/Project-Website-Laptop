@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Description Product</title>
+    <title>Technologia</title>
+    <link rel="icon" type="image/png" href="Assets\Images\logo_bulat.png">
     <link rel="stylesheet" href="css/deskripsi.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css" />
@@ -16,7 +17,10 @@
 
       <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Laptop Kita</h5>
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> <div class="logo-container">
+            <img src="Assets\Images\logo 2.png" alt="Logo" class="logo-img">
+            <span class="logo-text">Technologia</span>
+          </div></h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
           <div class="menu-tabs">
@@ -27,7 +31,7 @@
           <div class="menu-list" id="menuTab">
             <div class="menu-item">Home</div>
             <div class="menu-item">About Us</div>
-            <div class="menu-item" onclick="toggleSubmenu('laptopkita')">Laptop Kita Store <span>+</span></div>
+            <div class="menu-item" onclick="toggleSubmenu('Technologia')">Technologia <span>+</span></div>
             <div class="submenu" id="submenu-laptopkita">
               <div>- Lenovo</div>
               <div>- MacBook</div>
@@ -46,14 +50,13 @@
             </div>
           </div>
         
-          <div class="menu-list" id="categoriesTab" style="display: none;">
-            <div class="menu-item">Laptop</div>
-            <div class="menu-item">Accessories</div>
-            <div class="menu-item">Networking</div>
-          </div>
+       </div>
         </div>
 
-      <div class="logo">LaptopKita</div>
+        <div class="logo-container">
+          <img src="Assets\Images\logo 2.png" alt="Logo" class="logo-img">
+          <span class="logo-text">Technologia</span>
+        </div>
       <div class="search-container">
         <i class="bi bi-search"></i>
         <input type="text" class="search" placeholder="Search"/>
@@ -61,7 +64,7 @@
       <div class="navbare">
         <nav>
           <ul>
-            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#carouselExample">Home</a></li>
             <li><a href="index.html#about-us">About</a></li>
             <li><a href="index.html#categories">Category</a></li>
             <li><a href="index.html#all-products">Products</a></li>
@@ -69,7 +72,7 @@
           </ul>
         </nav>
       </div>
-    </header>
+    </header>
 
     <main class="container">
       <section class="product-detail">

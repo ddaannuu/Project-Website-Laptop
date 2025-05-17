@@ -469,3 +469,14 @@ g
   color: #555;
 }
 
+.logo-img {
+  height: 30px;
+  width: auto;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 18px;
+color:#000;
+}
