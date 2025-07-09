@@ -618,11 +618,6 @@ public function get_by_slug($slug)
     }
 }
 
-
-
-
-
-	
 }
 
 
