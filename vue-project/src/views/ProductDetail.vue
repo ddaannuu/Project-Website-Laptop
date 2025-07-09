@@ -18,6 +18,9 @@
           </button>
         </div>
       </div>
+      
+      
+
 
       <div class="product-info">
         <h1 style="font-weight: bold">{{ product.title }}</h1>
@@ -64,6 +67,8 @@
         </div>
       </div>
     </nav>
+
+    
 
     <div class="tab-content-container">
       <div :class="['tab-content', { active: activeTab === 'description-tab' }]" id="description-tab">
@@ -129,7 +134,9 @@ export default {
   async created() {
     const slug = this.$route.params.id;
     try {
-      const res = await fetch(`http://localhost/technologia/Backend/products/get_product.php?id=${slug}`);
+ 
+      const res = await fetch(`http://localhost/technologia/CI3/index.php/products/get_by_slug/${slug}`);
+
       const data = await res.json();
 
       if (data.error) {
