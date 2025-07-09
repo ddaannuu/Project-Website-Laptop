@@ -20,7 +20,7 @@ import EditUser from "../views/user/Edit.vue";
 import ManageProduct from "../views/Manage_product.vue";
 import CreateForm from "../views/products/Create_form.vue";
 import EditNewArrival from "../views/products/EditNewArrival.vue";
-// import EditOnSale from '@/views/products/EditOnSale.vue'
+import EditOnSale from '@/views/products/EditOnSale.vue'
 import EditBestSeller from "@/views/products/EditBestSeller.vue";
 
 const routes = [
@@ -45,7 +45,7 @@ const routes = [
   { path: "/products/manage", name: "ManageProduct", component: ManageProduct, meta: { layout: "auth", requiresAuth: true } },
   { path: "/products/create", name: "CreateForm", compnent: CreateForm, meta: { layout: "auth", requiresAuth: true } },
   { path: "/products/edit/:id", name: "EditNewArrival", component: EditNewArrival, meta: { layout: "auth", requiresAuth: true } },
-  // { path: '/products/edit_on_sale/:id',name: 'EditOnSale',component: EditOnSale,meta: { layout: 'auth', requiresAuth: true }},
+  { path: '/products/edit_on_sale/:id',name: 'EditOnSale',component: EditOnSale,meta: { layout: 'auth', requiresAuth: true }},
   { path: "/products/edit_best_seller/:id", name: "EditBestSeller", component: EditBestSeller, meta: { layout: "auth", requiresAuth: true } },
 ];
 
