@@ -28,7 +28,7 @@
       <div class="tab-content active" id="newArival-tab">
         <div class="product-grid" id="all-products">
 
-             <!-- Acer Aspire Lite 14 AL1-->
+   
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Acer Aspire Lite 14 AL1 14M 3MID 1.png" alt="Acer Aspire Lite 14 AL1" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -51,7 +51,7 @@
             </div>
           </div>
 
-          <!-- ASUS Zenbook -->
+        
         <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Asus Zenbook 14.jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -64,7 +64,7 @@
             </div>
           </div>
 
-          <!-- Advan WorkPlus [Intel i5 12600H-24GB-SSD 512GB] -->
+         
         <div class="product-card discount">
             <div class="image-slide-wrapper">
                 <img src="..\assets\Images\Advan WorkPlus 2.png" alt="Advan hover" class="product-img second-img" />
@@ -79,7 +79,7 @@
             </div>
         </div>
 
-         <!-- MSI Modern 14-C7M-280ID-->
+        
            <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/MSI Modern 14-C7M-280ID 1.png" alt="MSI Modern 14-C7M-280ID" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -92,7 +92,7 @@
             </div>
           </div>
 
-          <!-- Advan AI Gen Ultra – Grey [Core™ Ultra 5 125H-16GB-SSD 512GB] -->
+        
             <div class="product-card discount">
             <div class="image-slide-wrapper">
                 <img src="../assets/Images/Advan AI Gen Ultra2.jpg" alt="Advan AI hover" class="product-img second-img" style="height: 200px; width: 280px"/>
@@ -104,7 +104,7 @@
                 <span class="price">Rp9.199.000</span>
             </div>
             </div>
-        <!-- Acer Swift 14 AI SF14 51 70ML – Steam Blue [Core Ultra 7 258V-32GB-SSD 1TB] -->
+        
         <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="..\assets\Images\Acer Swift 14 AI (1).jpg" alt="Acer Swift hover" class="product-img second-img" />
@@ -117,7 +117,7 @@
         </div>
         </div>
 
-          <!-- Apple MacBook Air 13 (16GB/512GB) Chip M3 -->
+          
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="..\assets\Images\Macbook Air M3 (2).jpg" alt="Macbook hover" class="product-img second-img" />
@@ -130,7 +130,7 @@
             </div>
           </div>
 
-          <!-- HP Pavilion Plus 14 (i5-1335U, 16GB, SSD 512GB, iRis Xe) -->
+     
         <div class="product-card discount">
           <div class="image-slide-wrapper">
             <img src="..\assets\Images\HP Pavilion Plus 142.jpg" alt="HP Pavilion hover" class="product-img second-img" />
@@ -143,7 +143,7 @@
           </div>
         </div>
 
-          <!-- Axioo MyBook Z6 – Pink [i3 1215U-8GB-SSD 512GB] -->
+          
         <div class="product-card discount">
           <div class="image-slide-wrapper">
             <img src="..\assets\Images\Axioo MyBook Z6 2.png" alt="Axioo Z6 hover" class="product-img second-img"style="height: 200px; width: 280px" />
@@ -156,7 +156,7 @@
           </div>
         </div>
 
-          <!-- Lenovo Flex 5 14ABR8 Touch 2in1 [Ryzen 5 5625U-8GB-SSD 512GB] -->
+         
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="..\assets\Images\Lenovo Flex 5 2.png" alt="Lenovo Flex 5 hover" class="product-img second-img" style="height: 200px; width: 280px" />

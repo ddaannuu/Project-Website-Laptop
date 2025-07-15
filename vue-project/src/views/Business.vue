@@ -28,7 +28,7 @@
       <div class="tab-content active" id="newArival-tab">
         <div class="product-grid" id="all-products">
 
-             <!-- Lenovo IdeaPad Slim 3 14ABR8 [Ryzen 5 5625U-16GB-SSD 512GB] -->
+             
                 <div class="product-card discount">
                 <div class="image-slide-wrapper">
                     <img src="..\assets\Images\Lenovo IdeaPad Slim 3 2.png" alt="Lenovo Slim 3 hover" class="product-img second-img" />
@@ -41,7 +41,7 @@
                 </div>
                 </div>
 
-            <!-- HP 14S DQ5152TU -->
+         
            <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/HP 14S DQ5152TU 1.png" alt="HP 14S DQ5152TU " class="product-img first-img" style="height: 200px; width: 280px" />
@@ -54,7 +54,7 @@
             </div>
           </div>
 
-          <!-- HP Pavilion 14 EK2333TU Touch 2in1 [Core 5 120U-16GB-SSD 512GB] -->
+          
             <div class="product-card discount">
             <div class="image-slide-wrapper">
                 <img src="..\assets\Images\HP Pavilion 14 EK2333TU 2.png" alt="HP Pavilion Touch hover" class="product-img second-img" />
@@ -68,7 +68,7 @@
             </div>
 
 
-        <!-- MSI Summit 13 AI+ EVO A2VMTG 026ID Touch 2in1 -->
+      
         <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="..\assets\Images\MSI Summit 13 2.png" alt="MSI Summit Touch hover" class="product-img second-img" style="height: 200px; width: 280px" />
@@ -81,7 +81,7 @@
         </div>
         </div>
 
-            <!-- Axioo MyBook Saga 12 -->
+
             <div class="product-card discount">
             <div class="image-slide-wrapper">
                 <img src="..\assets\Images\Axioo MyBook Saga 12 Intel i5 2.jpg" alt="Axioo Saga hover" class="product-img second-img" style="height: 220px; width: 210px"/>
@@ -95,7 +95,7 @@
             </div>
 
 
-         <!-- Lenovo V14 G4 AMN V7ID-->
+        
            <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Lenovo V14 G4 AMN V7ID.png" alt="Lenovo V14 G4 AMN V7ID" class="product-img first-img" style="height: 200px; width: 250px" />
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <!-- Acer Mate 14 AM1 -->
+        
         <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="..\assets\Images\Acer Mate 14 AM1 2.png" alt="Acer Mate 14 hover" class="product-img second-img" />
@@ -122,7 +122,7 @@
         </div>
 
 
-         <!-- Acer Aspire Spin ASP14-52MTN-706P -->
+       
         <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="..\assets\Images\Acer Aspire Spin ASP14 2.png" alt="Acer Aspire Spin hover" class="product-img second-img" />
@@ -136,7 +136,7 @@
         </div>
 
 
-          <!-- HP OmniBook X 14 FE0333QU -->
+  
             <div class="product-card discount">
             <div class="image-slide-wrapper">
                 <img src="..\assets\Images\HP OmniBook X 14 2.png" alt="HP OmniBook X hover" class="product-img second-img" />
@@ -150,7 +150,7 @@
             </div>
 
 
-         <!-- HP 245 G10 -->
+      
         <div class="product-card discount">
         <div class="image-slide-wrapper">
             <img src="..\assets\Images\HP 245 G10 – Silver 2.png" alt="HP 245 G10 hover" class="product-img second-img" style="height: 200px; width: 270px" />

@@ -159,7 +159,7 @@ export default {
           additionalInfo: "Garansi 2 tahun, Tersedia di semua cabang, Dukungan purna jual tersedia, dll.",
         };
 
-        // Ambil related products
+       
         this.related = data.related.map((r) => ({
           id: r.slug,
           title: r.title,
@@ -235,8 +235,8 @@ header.scrolled {
 }
 
 .offcanvas {
-  height: 100vh; /* Mengisi seluruh tinggi viewport */
-  overflow-y: auto; /* Memungkinkan scroll vertikal jika konten melebihi tinggi */
+  height: 100vh; 
+  overflow-y: auto; 
 }
 
 .sidebar {
@@ -305,7 +305,7 @@ header.scrolled {
   color: #666;
 }
 
-/* Burger menu button */
+
 .burger {
   font-size: 24px;
   padding: 10px;

@@ -112,7 +112,7 @@
             </div>
           </div>
 
-          <!-- MacBook Air 15 M2 -->
+    
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Acer Predator Triton 300 SE (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -125,7 +125,7 @@
             </div>
           </div>
 
-          <!-- LENOVO LOQ 15IRX9 i7 -->
+         
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/MSI Creator Z17 (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 250px" />
@@ -138,7 +138,6 @@
             </div>
           </div>
 
-          <!-- ASUS TUF Gaming F16 -->
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/ASUS Vivobook Pro 16X OLED N7600PC (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />

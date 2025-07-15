@@ -52,7 +52,6 @@
             </div>
           </div>
 
-          <!-- ASUS ROG Scar G532LWS-I97SD6T-->
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/MSI VECTOR 16HX AI (2).jpg" alt="Legion 5 hover" class="product-img second-img" />
@@ -65,7 +64,7 @@
             </div>
           </div>
 
-          <!-- Laptop ThinkPad E14 Gen 6 -->
+          
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/ASUS ROG ZEPHYRUS G14 (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -78,7 +77,6 @@
             </div>
           </div>
 
-          <!-- Acer Nitro V15 -->
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/ASUS TUF A14 FA401UU (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -91,7 +89,7 @@
             </div>
           </div>
 
-          <!-- ASUS Vivobook Go 14 E1404FA -->
+
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Laptop HP VICTUS 16 R1005TX (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -104,7 +102,7 @@
             </div>
           </div>
 
-          <!-- Axio Pongo 725 -->
+   
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/Asus Rog Strix G16 G614J1 (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -117,7 +115,7 @@
             </div>
           </div>
 
-          <!-- MacBook Air 15 M2 -->
+     
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/HP Victus Gaming 16 S1777AX (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />
@@ -130,7 +128,7 @@
             </div>
           </div>
 
-          <!-- LENOVO LOQ 15IRX9 i7 -->
+       
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/ACER Predator Helios Neo 16 (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 250px" />
@@ -143,7 +141,7 @@
             </div>
           </div>
 
-          <!-- ASUS TUF Gaming F16 -->
+
           <div class="product-card discount">
             <div class="image-slide-wrapper">
               <img src="../assets/Images/MSI Cyborg 14 A13VF (1).jpg" alt="Legion 5 default" class="product-img first-img" style="height: 200px; width: 280px" />

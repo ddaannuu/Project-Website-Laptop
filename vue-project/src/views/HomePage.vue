@@ -163,9 +163,6 @@
     <!-- New Arrival -->
     <div class="tab-content-container">
       <div class="tab-content active" id="newArival-tab">
-        <!-- <div> -->
-        <!-- Section: New Arrival -->
-        <!-- <section class="categories" id="categories"> -->
         <div class="product-grid" id="all-products">
           <div class="product-card discount" v-for="(product, index) in products" :key="index">
             <a :href="`/product/${product.slug}`" style="text-decoration: none; color: inherit">
@@ -181,8 +178,6 @@
             </a>
           </div>
         </div>
-        <!-- </section> -->
-        <!-- </div> -->
       </div>
 
       <!-- Best Seller -->
@@ -190,7 +185,7 @@
         <div class="product-grid" id="all-products">
           <!-- Asus ROG Zephyrus G14 -->
 
-          <!-- Lenovo Ideapad Slim 5i -->
+       
           <div class="product-card discount" v-for="(product, index) in bestSellers" :key="index">
             <a :href="`/product/${product.slug}`" style="text-decoration: none; color: inherit">
               <div class="image-slide-wrapper">

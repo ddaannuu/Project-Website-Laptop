@@ -225,7 +225,7 @@ export default {
   background-color: #17a589;
 }
 
-/* Tombol Tambah Produk */
+
 .btn {
   background-color: #00b969;
   color: #fff;
@@ -338,7 +338,6 @@ tr:hover {
   background-color: #f3f9ff;
 }
 
-/* Tombol Edit dan Hapus */
 .btn-edit,
 .btn-delete {
   padding: 7px 14px;
@@ -372,7 +371,7 @@ tr:hover {
   background-color: #a71d2a;
 }
 
-/* Mobile Responsive */
+
 @media screen and (max-width: 768px) {
   .header-nav {
     flex-direction: column;

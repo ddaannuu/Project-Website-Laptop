@@ -3,12 +3,12 @@
     <div class="container-login">
       <h2>Login User</h2>
 
-      <!-- Pesan sukses -->
+  
       <div v-if="successMessage" class="success">
         <p>{{ successMessage }}</p>
       </div>
 
-      <!-- Pesan error -->
+  
       <div v-if="errors.length > 0" class="errors">
         <p v-for="(error, index) in errors" :key="index">{{ error }}</p>
       </div>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="captcha-box">
-          <!-- reCAPTCHA v2 checkbox -->
+      
           <div
             class="g-recaptcha"
             :data-sitekey="recaptchaSiteKey"
