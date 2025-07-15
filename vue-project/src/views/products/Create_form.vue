@@ -273,17 +273,14 @@ textarea {
   resize: vertical;
 }
 
-/* Full Width Group */
 .form-group.full-width {
   width: 100%;
 }
 
-/* Checkbox */
 input[type="checkbox"] {
   margin-right: 8px;
 }
 
-/* Button */
 button[type="submit"] {
   width: 100%;
   padding: 16px;
@@ -307,7 +304,6 @@ button[type="submit"]:hover {
   transform: translateY(-2px);
 }
 
-/* Message Box */
 .message.success {
   background-color: #d4edda;
   color: #155724;
@@ -326,7 +322,6 @@ button[type="submit"]:hover {
   margin-bottom: 20px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .addP {
     padding: 25px 20px;

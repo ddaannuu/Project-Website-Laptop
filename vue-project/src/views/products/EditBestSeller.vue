@@ -136,7 +136,6 @@ export default {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* Judul */
 .container_edit h2 {
   font-size: 32px;
   color: #222;
@@ -155,7 +154,6 @@ export default {
   border-radius: 5px;
 }
 
-/* Link */
 .container_edit a {
   display: inline-block;
   margin-bottom: 25px;
@@ -170,7 +168,6 @@ export default {
   color: #3e38d6;
 }
 
-/* Label dan Input */
 form label {
   font-weight: 600;
   display: block;
@@ -202,7 +199,6 @@ select:focus {
   box-shadow: 0 0 0 4px rgba(108, 99, 255, 0.2);
 }
 
-/* Tombol */
 button {
   width: 100%;
   padding: 16px;
@@ -232,7 +228,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* Pesan sukses */
 .message.success {
   background-color: #d4edda;
   color: #155724;
@@ -242,7 +237,6 @@ button:disabled {
   margin-bottom: 20px;
 }
 
-/* Pesan error */
 .errors {
   background-color: #f8d7da;
   color: #721c24;
@@ -252,12 +246,10 @@ button:disabled {
   margin-bottom: 20px;
 }
 
-/* Textarea resize */
 textarea {
   resize: vertical;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .container_edit {
     padding: 30px 20px;
