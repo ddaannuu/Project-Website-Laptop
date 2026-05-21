@@ -23,11 +23,12 @@ Sebuah proyek website sederhana yang dibuat untuk memberikan informasi seputar *
 
 | No | Nama Lengkap                                                 | NIM         | GitHub Profile                                   |
 |----|---------------------------------------------------------------|-------------|--------------------------------------------------|
-| 1  | Rifky Danu Asmoro                                            | 23.11.5489  | [ddaannuu](https://github.com/ddaannuu)          |
+| 1  | Debi Saputra                                                 | 23.11.5480  | [debisaputra26](https://github.com/debisaputra26)          |
 | 2  | I Made Baskara Saccid Ananda                                 | 23.11.5466  | [baskara19](https://github.com/baskara19)        |
 | 3  | Vianda Retnaningtiyas Purbandari Karetji                     | 23.11.5445  | [viandakaretji](https://github.com/viandakaretji)|
 | 4  | Farhan Ardiansyah                                            | 23.11.5464  | [faanns1](https://github.com/faanns1)            |
 | 5  | Stefanus Arya Bayu Samudra Bataona                           | 23.11.5477  | [aryaa245](https://github.com/aryaa245)          |
+| 6  | Rifky Danu Asmoro                                            | 23.11.5489  | [ddaannuu](https://github.com/ddaannuu)
 
 ---
 
